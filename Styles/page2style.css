@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.ring {
+    margin: 100px -15px;
+    padding: 60px;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 50%;
+    font-weight: 800;
+}
+.ring#red {
+    border-color: red;
+}
+.ring#yellow {
+    border-color: yellow;
+}
+.ring#blue{
+    border-color: blue;
+}
+.ring#green{
+    border-color: green;
+}
